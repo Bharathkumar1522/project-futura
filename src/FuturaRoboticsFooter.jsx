@@ -73,7 +73,7 @@ const FuturaRoboticsFooter = () => {
             <div className="form-group">
               <input 
                 type="email" 
-                placeholder="Enter your email" 
+                placeholder="Your email" 
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="subscribe-input"

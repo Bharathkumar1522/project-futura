@@ -30,7 +30,7 @@ const VideoSection = ({ videoSrc }) => {
                 <video 
                 ref={videoRef}
                 className="video-player"
-                src={videoSrc || "https://res.cloudinary.com/dyecmgvcy/video/upload/q_auto,vc_auto/v1741884492/140521-775376205_kdid88.webm"} // Default placeholder
+                src={videoSrc || "https://res.cloudinary.com/dyecmgvcy/video/upload/q_auto:eco,vc_auto/v1741884492/140521-775376205_kdid88.webm"} // Default placeholder
                 loop
                 muted
                 playsInline
