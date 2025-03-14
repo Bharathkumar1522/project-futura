@@ -41,17 +41,17 @@ const FuturaRoboticsFooter = () => {
             <p className="text-sm text-gray-600 m-0 mb-5">Reshaping the future of AI interaction</p>
             <div className="flex gap-4 md:justify-center">
               {/* Social links with SVG masks */}
-              <a href="#" className="block w-9 h-9 rounded-full bg-black flex items-center justify-center transition-transform duration-300 shadow-md hover:translate-y-[-3px] hover:shadow-lg">
-                <div className="w-[18px] h-[18px] bg-white mask-facebook"></div>
+              <a href="#" className="w-9 h-9 rounded-full bg-black flex items-center justify-center transition-transform duration-300 shadow-md hover:translate-y-[-3px] hover:shadow-lg">
+            <div className="w-[18px] h-[18px] bg-white mask-facebook"></div>
               </a>
-              <a href="#" className="block w-9 h-9 rounded-full bg-black flex items-center justify-center transition-transform duration-300 shadow-md hover:translate-y-[-3px] hover:shadow-lg">
-                <div className="w-[18px] h-[18px] bg-white mask-twitter"></div>
-              </a>
-              <a href="#" className="block w-9 h-9 rounded-full bg-black flex items-center justify-center transition-transform duration-300 shadow-md hover:translate-y-[-3px] hover:shadow-lg">
-                <div className="w-[18px] h-[18px] bg-white mask-instagram"></div>
-              </a>
+            <a href="#" className="w-9 h-9 rounded-full bg-black flex items-center justify-center transition-transform duration-300 shadow-md hover:translate-y-[-3px] hover:shadow-lg">
+              <div className="w-[18px] h-[18px] bg-white mask-twitter"></div>
+            </a>
+            <a href="#" className="w-9 h-9 rounded-full bg-black flex items-center justify-center transition-transform duration-300 shadow-md hover:translate-y-[-3px] hover:shadow-lg">
+              <div className="w-[18px] h-[18px] bg-white mask-instagram"></div>
+            </a>
+              </div>
             </div>
-          </div>
           
           {/* Products links section */}
           <div className="flex flex-col md:items-center md:text-center">
