@@ -44,7 +44,7 @@ const VideoSection = ({ videoSrc }) => {
                         <video 
                             ref={videoRef}
                             className="absolute inset-0 w-full h-full object-cover z-[2]"
-                            src={videoSrc || "https://res.cloudinary.com/dyecmgvcy/video/upload/q_auto:eco,vc_auto/v1741884492/140521-775376205_kdid88.webm"}
+                            src={videoSrc || "https://res.cloudinary.com/dyecmgvcy/video/upload/q_auto:eco/v1741923808/140521-775376205_kdid88.webm"}
                             loop
                             muted
                             playsInline

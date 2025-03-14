@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 @font-face {
   font-family: 'Aerospace';
   src: url('https://res.cloudinary.com/dyecmgvcy/raw/upload/v1741887612/font-link/Aerospace_ewtp9p.ttf') format('truetype'),
@@ -11,13 +12,17 @@
   font-family: 'Aerospace';
 }
 
-
+html{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
 body{
+  overflow-x: hidden;
   padding-top: 20px;
   background-color: rgb(255, 255, 255);
 
 }
-/* Navbar Styles */
 .navbar {
   /* Glassmorphism effect */
   background: rgba(195, 195, 195, 0.43);
@@ -109,6 +114,7 @@ body{
     display: flex;
   }
 }
+
 
 .spline-container {
   display: flex;

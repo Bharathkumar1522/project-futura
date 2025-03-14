@@ -13,7 +13,7 @@ const Home = () => {
                 whileInView="visible" 
                 viewport={{ once: true, amount: 0.2 }}
                 variants={fadeIn}
-                className="flex-column md:px-25 py-25 md:flex items-center justify-between mt-10 mb-15 md:mt-0 md:mb-0"
+                className="flex flex-col xl:flex-row md:px-25 py-25 items-center justify-between mt-10 mb-15 xl:mt-0 xl:mb-0"
             >
                 <motion.div variants={fadeIn} className="text-container">
                     <h1 className="font-aerospace text-3xl w-auto text-center md:text-7xl md:w-3xl md:text-left">
