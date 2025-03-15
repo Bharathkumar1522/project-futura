@@ -4,15 +4,22 @@ import Home from './Home'
 import Brief from './Brief'
 import FuturaRoboticsFooter from './FuturaRoboticsFooter'
 import VideoSection from './VideoSection';
+import { ReactLenis, useLenis } from 'lenis/react'
 
 function App() {
+  const lenis = useLenis(({ scroll }) => {
+    // called every scroll
+  })
   return (
     <>
-      <Navbar/>
+     <ReactLenis root>
+     <Navbar/>
       <Home/>
       <Brief/>
       <VideoSection/>
       <FuturaRoboticsFooter/>
+    </ReactLenis>
+      
     </>
   )
 }
